@@ -156,8 +156,6 @@
 
 <svelte:window onkeydown={(e) => { if (e.key === ' ' && e.target === document.body) { e.preventDefault(); togglePlay(); } }} />
 
-<div id="spacer"></div>
-
 <div id="wrap" ontouchstart={handleTouch}>
   <div id="main-col">
     <div id="count-header" bind:this={countHeaderEl}>
@@ -193,9 +191,7 @@
 </div>
 
 <style>
-  #spacer { width: 100%; height: 200px; }
-
-  :global(*, *::before, *::after) { box-sizing: border-box; margin: 0; padding: 0; }
+:global(*, *::before, *::after) { box-sizing: border-box; margin: 0; padding: 0; }
   :global(:root) {
     --bg: #ffffff; --t1: #000000; --t2: #000000;
     --border: rgba(0,0,0,0.12); --surface: #f5f3ed;
