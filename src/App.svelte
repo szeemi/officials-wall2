@@ -162,7 +162,7 @@
   <div id="main-col">
     <div id="count-header" bind:this={countHeaderEl}>
       <div id="count-num">{displayCount}</div>
-      <div id="count-label">high ranking officials still in office</div>
+      <div id="count-label">senior officials still in office</div>
     </div>
 
     <WallSVG bind:this={wallSVG} onCountChange={handleCountChange} onEnter={handleEnter} onTopChange={handleTopChange}>
