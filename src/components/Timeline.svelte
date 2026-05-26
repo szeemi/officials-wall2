@@ -151,7 +151,7 @@
     top: 100%;
     margin-top: 4px;
     font-family: 'DM Mono', monospace;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 500;
     letter-spacing: -1px;
     line-height: 1;
@@ -177,6 +177,6 @@
   }
 
   @media (max-width: 600px) {
-    .year-label { font-size: 17px; }
+    .year-label { font-size: 20px; }
   }
 </style>

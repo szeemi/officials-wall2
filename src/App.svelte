@@ -256,7 +256,7 @@
   }
 
   #count-label {
-    font-size: 18px;
+    font-size: 24px;
     color: var(--t2);
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
