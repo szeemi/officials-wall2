@@ -312,8 +312,8 @@
 
   @media (max-width: 600px) {
     :global(body) { padding: 12px 8px 20px; }
-    #count-num    { font-size: 56px; }
-    #count-label  { font-size: 14px; }
+    #count-num    { font-size: 60px; }
+    #count-label  { font-size: 18px; }
     #year-display { font-size: 56px; }
     #btn-prev svg, #btn-next svg { width: 44px; height: 56px; }
   }
